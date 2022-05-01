@@ -49,7 +49,7 @@ function App() {
     let currentFinal = document.querySelector('#final').value
     let currentCommits = document.querySelector('#commits').value
     let currentA99 = document.querySelector('#a99').value
-    let currentE01 = document.querySelector('#e01').value
+    let currentE01 = document.querySelector('#eo1').value
     let currentE02 = document.querySelector('#e02').value
     if(currentSum==='')
     return;
@@ -80,7 +80,7 @@ function App() {
             <input type="text" id="final" placeholder="final" /><br/><br/>
             <input type="text" id="commits" placeholder="commits" /><br/><br/>
             <input type="text" id="a99" placeholder="a99" /><br/><br/>
-            <input type="text" id="e01" placeholder="eo1" /><br/><br/>
+            <input type="text" id="eo1" placeholder="e01" /><br/><br/>
             <input type="text" id="e02" placeholder="e02" /><br/><br/>
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button>
